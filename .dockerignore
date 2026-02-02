@@ -1,0 +1,23 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# uv
+# We usually want to include uv.lock if we want reproducible builds, but exclude local venv
+# .venv is excluded above
+
+# IDEs
+.vscode/
+.idea/
